@@ -25,6 +25,7 @@ class Song
     
     def save
       @@all << self
+      self
     end
     
   def artist_name
