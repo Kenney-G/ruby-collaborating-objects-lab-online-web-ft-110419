@@ -11,7 +11,7 @@ class MP3Importer
   end
   
   def import
-    Dir.foreach {| file |
+    files {| file |
   end
   end
   
