@@ -11,7 +11,7 @@ class MP3Importer
   end
   
   def import
-    files {| file |
+    files.foreach {| file |
   end
   end
   
