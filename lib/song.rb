@@ -17,14 +17,14 @@ class Song
     end
 
   def artist_name
-    self.all.find {|artist| artist.name == name }
+    self.artist = Artist.find_or_create_by_name(name)
   end
 
 
     def self.new_by_filename(filename)
     artist, song = filename.split(" - ")
     a_song = self.new(song)
-    a_song.artist= artist
+    a_song.artist= artist)
     a_song.save
     end
     
