@@ -11,8 +11,7 @@ class MP3Importer
   end
   
   def import
-    Dir.chdir(@path) do | path |
-    Dir.glob("*.mp3")
+    Dir.foreach {| file |
   end
   end
   
