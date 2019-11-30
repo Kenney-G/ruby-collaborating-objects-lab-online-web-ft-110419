@@ -9,5 +9,6 @@ class MP3Importer
     Dir.glob("*.mp3")
     end
   end
-  
+  def import
+    
 end
