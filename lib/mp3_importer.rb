@@ -5,6 +5,6 @@ class MP3Importer
   end
   
   def files
-    File.basename(path)
+    Files.basename(path)
   end
 end
