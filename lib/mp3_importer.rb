@@ -5,8 +5,7 @@ class MP3Importer
     test_music_path = @path
   end
   
-  def path
-    path = MP3Importer.new(path)
-    path
+  def files
+    Dir.glob(path)
   end
 end
