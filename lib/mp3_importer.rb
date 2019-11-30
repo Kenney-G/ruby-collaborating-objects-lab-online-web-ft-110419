@@ -12,7 +12,7 @@ class MP3Importer
   
   def import
     Dir.chdir(@path) do | path |
-    Dir.glob("*.mp3") Song.new_by_filename(files)
+    Dir.glob("*.mp3")
   end
   
 end
