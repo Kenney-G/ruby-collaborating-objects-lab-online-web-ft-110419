@@ -12,6 +12,7 @@ class MP3Importer
   
   def import
     files do {| file | Song.new_by_filename(files)}
+    end
   end
   
 end
